@@ -83,7 +83,7 @@ const Navbar = () => {
               </Link>
             )}
           </div>
-          <HiOutlineUser className="size-6" />
+
           <button className="sm:block">
             <HiOutlineHeart className="size-6" />
           </button>
