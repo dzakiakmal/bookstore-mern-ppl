@@ -62,3 +62,5 @@ export const SingleBook = () => {
     </div>
   );
 };
+
+export default SingleBook;
