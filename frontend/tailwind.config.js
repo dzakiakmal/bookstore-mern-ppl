@@ -6,14 +6,14 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-        'primary' : '#FFCE1A', //tombol kuning
-        'secondary' : '#0D0842', // warna text biru gelap
-        'blackBG' : 'F3F3F3',
-        'fav' : '#FF5841' // warna favorit
-      },
-      fontFamily:{
-        'primary' : ["Inter", "sans-serif"],
+      colors: {
+        'primary': '#FFCE1A',
+        'secondary' : "#0D0842",
+        'blackBG': '#F3F3F3',
+        'Favorite': '#FF5841'
+      }, 
+      fontFamily: {
+        'primary' : ["Montserrat", "sans-serif"],
         'secondary' : ["Nunito Sans", "sans-serif"]
       }
     },
