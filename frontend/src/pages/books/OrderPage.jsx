@@ -16,11 +16,11 @@ const OrderPage = () => {
   };
 
   const formatCurrency = (amount) => {
-    return new Intl.NumberFormat('id-ID', {
+    return new Intl.NumberFormat('us-US', {
       style: 'currency',
-      currency: 'IDR',
+      currency: 'USD',
       minimumFractionDigits: 0,
-    }).format(amount * 15000); // Asumsi 1 USD = 15.000 IDR
+    }).format(amount); // Asumsi 1 USD = 15.000 IDR
   };
 
   if (isLoading) {
